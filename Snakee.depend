@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1512081163 source:c:\users\artur\documents\github\snake\main.cpp
+	<time.h>
+	<iostream>
+	<windows.h>
+	<conio.h>
+
