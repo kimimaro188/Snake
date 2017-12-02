@@ -5,7 +5,7 @@
 
 using namespace std;
 
-//funkcja, która przestawia kursor konsoli w dowolne miejsce
+// funkcja, która przestawia kursor konsoli w dowolne miejsce
 void gotoxy( const int x, const int y )
 {
     COORD coord = { x, y };
