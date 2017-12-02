@@ -195,7 +195,9 @@ wsplYjedz=rand()%wysokosc+1;
 cout<<'a';
 }
 
-
+void Instrukcja(){
+cout<<"Wybierz 4klawisze dzieki ktorym bedziesz sterowac wezem, a nastepnie staraj sie"<<endl<<"wydluzyc weza jak najbardziej potrafisz dzieki zbieranemu jedzeniu."<<endl<<endl<<endl<<"Powodzenia!";
+}
 
 int main()
 {
@@ -267,7 +269,10 @@ int main()
                         break;
 
                     case 1:
-                     //   OpcjaB();
+                        system("cls");
+                        Instrukcja();
+                        getch();
+                        goto start;
                         break;
 
                     case 2:
